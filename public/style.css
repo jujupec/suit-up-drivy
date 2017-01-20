@@ -1,4 +1,70 @@
 h1{
+    color:SteelBlue;
+    text-align:center;
+    font-family:fantasy;
+    margin-top:-150px;
+
+}
+
+#compute{
+    background-color: #4CAF50;
+    font-size:10px;
+    color: white;
+    width:100px;
+    height:30px;
+    font-family:Courier New;
+    margin-top: 20px;
+    margin-left:30px;
+    border-radius:12px;
+    transition: all 0.5s;
+    cursor: pointer;
+    left: 50%;
+    border:none;
+
+}
+
+#compute:hover {
+    background-color: #45a049;
 
 
 }
+
+html {
+    background: url(http://imgview.info/download/20150804/car-hud-dark-digital-art-black-background-cyan-1920x1200.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+img {
+	max-width: 300px;;
+	height: auto;
+}
+
+.actor{
+    color:white;
+    font-family:
+}
+
+input{
+    border:none;
+    border-radius:8px;
+    margin:15px;
+    background-color:DarkCyan;
+    border:none;
+}
+
+#rental{
+     border-radius: 5px;
+     padding: 20px;
+     width:20%;
+}
+
+#car{
+    border-radius: 5px;
+    padding: 20px;
+    width:20%;
+
+}
+#tout{
+    margin-top:50px;
+}
+

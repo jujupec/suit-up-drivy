@@ -1,4 +1,20 @@
 <!DOCTYPE html>
+<!--
+          OOOO            OOO
+          OOOO            OOO
+          OOOO
+   8OOOOOOOOOO  OOO OOOO  OOO  OOOO     OOO   OOO     ZOOO    we're hiring!
+  OOOOOOOOOOOO  OOO OOOO  OOO   OOO,   OOOO   OOOO    OOO     https://www.drivy.com/jobs
+ OOOO     OOOO  OOO       OOO   OOOO  OOOO     OOOO  OOOO
+~OOO      OOOO  OOO       OOO    OOOO OOO:      OOO ZOOO
+,OOO      OOOO  OOO       OOO     OOOOOOO       OOOOOOO       don't click here:
+ OOOO     OOOO  OOO       OOO     OOOOOO         OOOOOO       http://dontclickhere.drivy.com
+  ZOOOOOOOOOOO  OOO       OOO      OOOO~          OOOO
+    OOOOOOOOOO  OOO       OOO       OOO           OOO
+                                                 OOOO
+                                                ZOOO
+                                                OOO
+-->
 <html>
   <head>
     <title>CSS/HTML Workshop with Drivy</title>
@@ -6,7 +22,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+  <img src="https://drivy-prod-static.s3.amazonaws.com/logo/logo-drivy.png" alt="" />
   <h1>Input your options</h1>
+  <div id="tout">
     <div id="car">
       <input class="model" type="text" placeholder="Car model"/>
       <input class="price-by-day" type="number" placeholder="Price by day"/>
@@ -19,6 +37,7 @@
       <input class="option" type="checkbox" placeholder="Deductible option"/>
     </div>
     <button id="compute">Compute</button>
+  </div>
     <div id="actors"></div>
     <script id="template" type="x-tmpl-mustache">
       {{#actors}}
