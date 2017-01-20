@@ -68,3 +68,13 @@ input{
     margin-top:50px;
 }
 
+label{
+    color:white;
+    font-family:fantasy;
+}
+
+span{
+    margin:10px;
+}
+
+
